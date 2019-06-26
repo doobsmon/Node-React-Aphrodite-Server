@@ -17,8 +17,8 @@ server.get("/", (req, res) => {
 				<title>SSR React App</title>
 			</head>
 			<body>
-				<div id=”mountnode”>${IM}</div>
-				<script src=”/main.js”></script>
+				<div id="mountnode">${IM}</div>
+				<script src="/main.js"></script>
 			</body>
 		</html>
 	`);
